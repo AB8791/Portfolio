@@ -1,0 +1,53 @@
+.purple {
+    color: #9b10e5;
+}
+
+.gray {
+    color: gray;
+}
+
+.vertical-title {
+    width: 156px;
+    position: absolute;
+    top: 72px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.vertical-desc {
+    width: 156px;
+    position: absolute;
+    top: 96px;
+    font-size: 0.6rem;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.mini-img {
+    max-width: 23px;
+    position: absolute;
+    top: -23px;
+    left: -10px;
+}
+
+.vertical-preview {
+    border: 3px solid orange;
+    border-radius: 12px;
+    position: absolute;
+    width: 256px;
+    height: 156px;
+    top: 176px;
+    left: -54px;
+}
+
+.btn {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 4px 12px;
+    background-color: #1b1b56;
+    border: 2px solid #d1d1ff;
+    border-radius: 7px;
+    cursor: pointer;
+
+}

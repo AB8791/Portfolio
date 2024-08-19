@@ -1,0 +1,142 @@
+.left-section {
+    font-size: 1.5rem;
+}
+
+
+.right-section ul {
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    gap: 34px;
+}
+
+.right-section ul li {
+    list-style: none;
+}
+
+.right-section a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s;
+}
+
+.right-section a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #9b10e5;
+    position: absolute;
+    bottom: -4px;
+    transform: scale(0);
+    transition: all 0.5s;
+    pointer-events: none;
+}
+
+.right-section a:hover,
+.right-section a:focus {
+    font-size: 1.02rem;
+    color: #cbcbff;
+}
+
+.right-section a:hover::after {
+    transform: scale(1.04);
+}
+
+.right-section a:focus::after {
+    transform: scale(1.04);
+}
+
+/* first section  */
+.first-section {
+    height: 400px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    height: 100%;
+    font-weight: 500;
+    font-size: 2.4rem;
+}
+
+.right {
+    height: 100%;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right img {
+    max-width: 52%;
+}
+
+.buttons {
+    margin: 64px 0px 0px 0px;
+}
+
+
+/* second section  */
+
+.second-section {
+    height: 600px;
+    width: 80vw;
+    margin: auto;
+}
+
+.second-section .box {
+    height: 1px;
+    width: 80vw;
+    margin: 48px 0;
+    background-color: white;
+    display: flex;
+}
+
+.second-section .vertical-box {
+    height: 70px;
+    width: 1px;
+    background-color: white;
+    margin: 0 10vw;
+    position: relative;
+}
+
+.second-section .vertical-preview {
+    background-image: url("assests/front-end-certificate.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.second-section .btn {
+    position: absolute;
+    top: 350px;
+    left: -22px;
+    width: 200px;
+}
+
+
+/* footer css */
+.quick-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4 {
+    display: flex;
+    flex-direction: column;
+}
