@@ -1,2 +1,4 @@
 # Portfolio
-This is my portfolio code, in which i am working currently. &lt;br> Langs used : HTML, CSS
+This is my portfolio code, in which i am working currently. 
+<br> 
+Langs used : HTML, CSS
