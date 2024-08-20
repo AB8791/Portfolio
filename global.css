@@ -11,10 +11,6 @@ body {
     background-color: #040428;
 }
 
-header {
-    position: sticky;
-    top: 0;
-}
 
 nav {
     height: 72px;
@@ -33,14 +29,14 @@ ul {
 
 hr {
     height: 1px;
-    margin: 34px auto;
-    width: 80vw;
+    margin: 56px auto;
+    width: 72vw;
     border: none;
     background: #b5b5ff;
 }
 
 h1 {
-    font-size: 1.2rem;
+    font-size: 1.625rem;
 }
 
 a {
